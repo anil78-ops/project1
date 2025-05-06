@@ -15,11 +15,8 @@ spec:
       containers:
         - name: bloggingapp
           image: anilk13/anilblogging1:V60 # Updated image to private DockerHub image
-          imagePullPolicy: Always
           ports:
             - containerPort: 8080
-      imagePullSecrets:
-        - name: regcred # Reference to the Docker registry secret
 ---
 apiVersion: v1
 kind: Service

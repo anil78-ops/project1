@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: bloggingapp
-          image: anilk13/anilblogging1:V59 # Updated image to private DockerHub image
+          image: anilk13/anilblogging1:V60 # Updated image to private DockerHub image
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
